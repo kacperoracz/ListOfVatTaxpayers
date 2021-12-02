@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="21.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Entity_DetailView" AllowEdit="True" AllowNew="True">
+      <Items>
+        <PropertyEditor Id="AccountNumbers" AllowEdit="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="66.19964973730298">
+            <LayoutGroup Id="Field" RelativeSize="22.75132275132275">
+              <LayoutItem Id="Field" RelativeSize="50.41782729805014" />
+              <LayoutItem Id="Data" RelativeSize="49.58217270194986" />
+            </LayoutGroup>
+            <LayoutGroup Id="Entity" RelativeSize="77.24867724867725">
+              <LayoutGroup Id="Entity_col1" RelativeSize="45.12534818941504" />
+              <LayoutGroup Id="Entity_col2" RelativeSize="54.87465181058496" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="33.80035026269702" Index="1">
+            <LayoutGroup Id="AuthorizedClerks" Index="1" />
+            <LayoutGroup Id="Partners" Index="2" />
+            <LayoutGroup Id="AccountNumbers" ShowCaption="True" Caption="Account Numbers" Index="4" RelativeSize="100" IsNewNode="True" Removed="True">
+              <LayoutItem Id="AccountNumbers" ShowCaption="False" ViewItem="AccountNumbers" Index="0" RelativeSize="100" IsNewNode="True" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="EntityCheck_DetailView">
+      <Items>
+        <PropertyEditor Id="AccountAssigned" AllowEdit="False" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" Direction="Vertical" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

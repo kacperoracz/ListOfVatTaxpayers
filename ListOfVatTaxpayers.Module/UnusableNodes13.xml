@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="EntityCheck_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="EntityCheck">
+              <LayoutGroup Id="Auto10262f73-3926-4552-a189-d0c2d86bca9a">
+                <LayoutItem Id="Nip" ViewItem="Nip" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="BankAccounts_ListView" Removed="True" />
+          <Item Id="EntityCheckResponse_ListView" Visible="False" />
+          <Item Id="EntityListResponse_ListView" Visible="False" />
+          <Item Id="Nips_ListView" Removed="True" />
+          <Item Id="Regons_ListView" Removed="True" />
+          <Item Id="Entity_ListView">
+            <Items Id="Items">
+              <Item Id="Regons_ListView" ViewId="Regons_ListView" />
+              <Item Id="Nips_ListView" ViewId="Nips_ListView" />
+              <Item Id="BankAccounts_ListView" ViewId="BankAccounts_ListView" />
+            </Items>
+          </Item>
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

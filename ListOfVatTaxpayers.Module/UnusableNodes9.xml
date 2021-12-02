@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="EntityCheck_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Testowanko">
+              <LayoutItem Id="Test2" ViewItem="Test2" />
+              <LayoutItem Id="Test1" ViewItem="Test1" />
+            </LayoutGroup>
+            <LayoutGroup Id="EntityCheck">
+              <LayoutItem Id="Nip" Index="2" RelativeSize="15.757575757575758" />
+              <LayoutItem Id="AccountNumber" Index="3" RelativeSize="15.757575757575758" />
+              <LayoutItem Id="Date" Index="4" RelativeSize="18.181818181818183" />
+              <LayoutGroup Id="Auto10262f73-3926-4552-a189-d0c2d86bca9a">
+                <LayoutItem Id="Test123" ViewItem="Test123" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

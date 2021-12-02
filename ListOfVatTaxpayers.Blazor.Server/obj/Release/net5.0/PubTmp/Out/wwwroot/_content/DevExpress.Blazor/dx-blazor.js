@@ -1,0 +1,1 @@
+const t=import("./modules/dx-blazor-2ece7fad.js").then((function(t){window.DxBlazor=t.default;const i=window.navigator.userAgent;return{isMobileDevice:/(cpu iphone os)|(Android)/i.test(i),isTablet:/(ipad)/i.test(i)}}));async function i(){return await t}export{i as getDeviceInfo};

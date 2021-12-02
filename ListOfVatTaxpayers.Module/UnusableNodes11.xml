@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="EntityCheck_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="EntityCheck">
+              <LayoutGroup Id="Autobe219c0d-dcd1-4e93-9e28-9c63f4eebf2a">
+                <LayoutItem Id="RequestDateTime" ViewItem="RequestDateTime" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto10262f73-3926-4552-a189-d0c2d86bca9a">
+                <LayoutItem Id="Test" ViewItem="Test" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

@@ -1,0 +1,12 @@
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\bin\Release\net5.0\ListOfVatTaxpayers.Module.deps.json
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\bin\Release\net5.0\ListOfVatTaxpayers.Module.dll
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\bin\Release\net5.0\ref\ListOfVatTaxpayers.Module.dll
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\bin\Release\net5.0\ListOfVatTaxpayers.Module.pdb
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\obj\Release\net5.0\ListOfVatTaxpayers.Module.csprojAssemblyReference.cache
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\obj\Release\net5.0\ListOfVatTaxpayers.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\obj\Release\net5.0\ListOfVatTaxpayers.Module.AssemblyInfoInputs.cache
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\obj\Release\net5.0\ListOfVatTaxpayers.Module.AssemblyInfo.cs
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\obj\Release\net5.0\ListOfVatTaxpayers.Module.csproj.CoreCompileInputs.cache
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\obj\Release\net5.0\ListOfVatTaxpayers.Module.dll
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\obj\Release\net5.0\ref\ListOfVatTaxpayers.Module.dll
+C:\Users\Kacper\source\repos\ListOfVatTaxpayers\ListOfVatTaxpayers.Module\obj\Release\net5.0\ListOfVatTaxpayers.Module.pdb

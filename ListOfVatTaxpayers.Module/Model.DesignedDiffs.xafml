@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="ListOfVatTaxpayers">
+  <BOModel>
+    <Class Name="ListOfVatTaxpayers.Module.BusinessObjects.EntityCheck" DefaultListViewMasterDetailMode="ListViewOnly" />
+    <Class Name="ListOfVatTaxpayers.Module.BusinessObjects.ListViewEntry" DefaultListViewAllowEdit="True" />
+    <Class Name="ListOfVatTaxpayers.Module.BusinessObjects.ListViewTest" DefaultListViewAllowEdit="True" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="EntityCheck_ListView" ObjectKey="" ViewId="EntityCheck_DetailView" Index="0" IsNewNode="True" />
+      <Item Id="EntityView_ListView" ObjectKey="" ViewId="EntityView_ListView" Index="1" IsNewNode="True" />
+      <Item Id="ListViewTest_ListView" ObjectKey="" Caption="Entity List View" Index="2" ViewId="ListViewTest_ListView" IsNewNode="True" />
+      <Item Id="Default" Removed="True">
+        <Items>
+          <Item Id="Entity_ListView" Caption="Entity_ListView" ViewId="Entity_ListView" Removed="True">
+            <Items>
+              <Item Id="BankAccounts_ListView" ViewId="BankAccounts_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="Nips_ListView" ViewId="Nips_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="Regons_ListView" ViewId="Regons_ListView" ObjectKey="" IsNewNode="True" />
+            </Items>
+          </Item>
+          <Item Id="EntityCheck_ListView" ViewId="EntityCheck_ListView" Removed="True" />
+          <Item Id="EntityPerson_ListView" Visible="False" />
+          <Item Id="EntityView_ListView" ViewId="EntityView_DetailView" Removed="True" />
+          <Item Id="ListViewEntry_ListView" ViewId="ListViewEntry_DetailView" Removed="True" />
+          <Item Id="ListViewTest_ListView" ViewId="ListViewTest_DetailView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="ListViewEntry_ListView" ObjectKey="" Caption="Entry List View" ViewId="ListViewEntry_ListView" IsNewNode="True" />
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="21.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Entity_DetailView" AllowDelete="False" AllowEdit="True" AllowNew="False">
+      <HiddenActions>
+        <ActionLink ActionId="Cancel" IsNewNode="True" />
+        <ActionLink ActionId="Refresh" IsNewNode="True" />
+        <ActionLink ActionId="Save" IsNewNode="True" />
+      </HiddenActions>
+      <Items>
+        <PropertyEditor Id="AccountNumbers" AllowEdit="True" />
+        <PropertyEditor Id="AuthorizedClerks" AllowEdit="True" />
+        <PropertyEditor Id="HasVirtualAccounts" AllowEdit="True" />
+        <PropertyEditor Id="Krs" AllowEdit="True" />
+        <PropertyEditor Id="Name" AllowEdit="True" />
+        <PropertyEditor Id="Nip" AllowEdit="True" />
+        <PropertyEditor Id="Partners" AllowEdit="True" />
+        <PropertyEditor Id="Pesel" AllowEdit="True" />
+        <PropertyEditor Id="RegistrationDenialBasis" AllowEdit="True" />
+        <PropertyEditor Id="RegistrationDenialDate" AllowEdit="True" />
+        <PropertyEditor Id="RegistrationLegalDate" AllowEdit="True" />
+        <PropertyEditor Id="Regon" AllowEdit="True" />
+        <PropertyEditor Id="RemovalBasis" AllowEdit="True" />
+        <PropertyEditor Id="RemovalDate" AllowEdit="True" />
+        <PropertyEditor Id="Representatives" AllowEdit="True" />
+        <PropertyEditor Id="ResidenceAddress" AllowEdit="True" />
+        <PropertyEditor Id="RestorationBasis" AllowEdit="True" />
+        <PropertyEditor Id="RestorationDate" AllowEdit="True" />
+        <PropertyEditor Id="StatusVat" AllowEdit="True" />
+        <PropertyEditor Id="WorkingAddress" AllowEdit="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="66.54929577464789">
+            <LayoutGroup Id="Field" ShowCaption="True" Direction="Horizontal" Index="0" RelativeSize="22.75132275132275" IsNewNode="True">
+              <LayoutItem Id="Field" ShowCaption="True" ViewItem="Field" Index="0" RelativeSize="50.55865921787709" IsNewNode="True" />
+              <LayoutItem Id="Data" ViewItem="Data" Index="1" RelativeSize="49.44134078212291" IsNewNode="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="Entity" Index="1" RelativeSize="77.24867724867725">
+              <LayoutGroup Id="Entity_col1" RelativeSize="45.25139664804469">
+                <LayoutItem Id="Name" RelativeSize="14.173228346456693" />
+                <LayoutItem Id="Nip" RelativeSize="10.236220472440944" />
+                <LayoutItem Id="StatusVat" RelativeSize="10.236220472440944" />
+                <LayoutItem Id="Regon" RelativeSize="10.236220472440944" />
+                <LayoutItem Id="Pesel" RelativeSize="10.236220472440944" />
+                <LayoutItem Id="Krs" RelativeSize="10.236220472440944" />
+                <LayoutItem Id="ResidenceAddress" RelativeSize="10.236220472440944" />
+                <LayoutItem Id="WorkingAddress" RelativeSize="10.236220472440944" />
+                <LayoutItem Id="RegistrationLegalDate" RelativeSize="14.173228346456693" />
+              </LayoutGroup>
+              <LayoutGroup Id="Entity_col2" RelativeSize="54.74860335195531">
+                <LayoutItem Id="RestorationDate" RelativeSize="10.236220472440944" />
+                <LayoutItem Id="RestorationBasis" RelativeSize="10.236220472440944" />
+                <LayoutItem Id="RemovalDate" RelativeSize="10.236220472440944" />
+                <LayoutItem Id="RemovalBasis" RelativeSize="10.236220472440944" />
+                <LayoutItem Id="HasVirtualAccounts" RelativeSize="34.645669291338585" />
+                <LayoutItem Id="Data" Removed="True" />
+                <LayoutItem Id="Field" ShowCaption="True" RelativeSize="24.409448818897637" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="33.45070422535211">
+            <LayoutGroup Id="Representatives" RelativeSize="100">
+              <LayoutItem Id="Representatives" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="Partners" RelativeSize="100">
+              <LayoutItem Id="Partners" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="AuthorizedClerks" RelativeSize="100">
+              <LayoutItem Id="AuthorizedClerks" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="AccountNumbers" RelativeSize="100">
+              <LayoutItem Id="AccountNumbers" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="EntityCheck_DetailView" AllowDelete="False" AllowEdit="True" AllowNew="False" EnableLayoutGroupImages="False" EnableCaptionColon="True" CaptionWordWrap="NoWrap">
+      <HiddenActions>
+        <ActionLink ActionId="Cancel" IsNewNode="True" />
+        <ActionLink ActionId="Refresh" IsNewNode="True" />
+        <ActionLink ActionId="Save" IsNewNode="True" />
+      </HiddenActions>
+      <Items>
+        <PropertyEditor Id="RequestDateTime" Removed="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="EntityCheck" Caption="EntityCheck" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="Auto10262f73-3926-4552-a189-d0c2d86bca9a" ShowCaption="False" Caption="Auto10262f73-3926-4552-a189-d0c2d86bca9a(4)" Direction="Horizontal" Index="0" RelativeSize="7.677543186180422" IsNewNode="True">
+                <LayoutItem Id="Field" ViewItem="Field" Index="0" RelativeSize="32.68156424581006" IsNewNode="True" />
+                <LayoutItem Id="AccountNumber" ViewItem="AccountNumber" Index="1" RelativeSize="32.82122905027933" IsNewNode="True" />
+                <LayoutItem Id="Date" ViewItem="Date" Index="2" RelativeSize="34.497206703910614" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="EntityCheck_col1" Caption="EntityCheck_col1" Index="1" RelativeSize="92.32245681381957">
+                <LayoutItem Id="AccountAssigned" ViewItem="AccountAssigned" Index="0" RelativeSize="100" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="RequestDateTime" Removed="True" />
+                <LayoutItem Id="RequestId" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="EntityCheck_col2" Index="3" RelativeSize="7.6305220883534135" Caption="EntityCheck_col2" Removed="True">
+                <LayoutItem Id="AccountNumber" RelativeSize="45.45454545454545" Index="0" Removed="True" />
+                <LayoutItem Id="Date" RelativeSize="100" Index="0" Removed="True" />
+                <LayoutItem Id="Nip" RelativeSize="32.608695652173914" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="EntityView_DetailView" AllowDelete="False" />
+    <DetailView Id="ListViewEntry_DetailView">
+      <Items>
+        <PropertyEditor Id="Entries" AllowEdit="False" />
+        <PropertyEditor Id="SavedValues" AllowEdit="False" />
+      </Items>
+    </DetailView>
+    <DetailView Id="ListViewTest_DetailView">
+      <Items>
+        <PropertyEditor Id="Entities" AllowEdit="False" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>

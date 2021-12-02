@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="ListViewEntry_DetailView" AllowDelete="False">
+      <Items Id="Items">
+        <PropertyEditor Id="Entries" LookupEditorMode="AllItems" />
+      </Items>
+    </DetailView>
+    <DetailView Id="ListViewTest_DetailView" AllowDelete="False" />
+  </Views>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="ListViewTest_ListView" ViewId="ListViewTest_DetailView" />
+      <Item Id="ListViewEntry_ListView" ViewId="ListViewEntry_DetailView" />
+    </Items>
+  </NavigationItems>
+</Application>

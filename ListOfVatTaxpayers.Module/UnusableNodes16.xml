@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Entity_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Entity">
+              <LayoutGroup Id="Entity_col2">
+                <LayoutItem Id="RegistrationDenialBasis" RelativeSize="10.236220472440944" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="EntityView_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="Entity" LookupEditorMode="AllItemsWithSearch" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>

@@ -1,0 +1,315 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Blazor.Server\\ListOfVatTaxpayers.Blazor.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Blazor.Server\\ListOfVatTaxpayers.Blazor.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Blazor.Server\\ListOfVatTaxpayers.Blazor.Server.csproj",
+        "projectName": "ListOfVatTaxpayers.Blazor.Server",
+        "projectPath": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Blazor.Server\\ListOfVatTaxpayers.Blazor.Server.csproj",
+        "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Blazor.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kacper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module.Blazor\\ListOfVatTaxpayers.Module.Blazor.csproj": {
+                "projectPath": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module.Blazor\\ListOfVatTaxpayers.Module.Blazor.csproj"
+              },
+              "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module\\ListOfVatTaxpayers.Module.csproj": {
+                "projectPath": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module\\ListOfVatTaxpayers.Module.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "DevExpress.ExpressApp": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.Blazor": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.Validation.Blazor": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.WebApi": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.Xpo": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.Persistent.Base": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.Persistent.BaseImpl.Xpo": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module.Blazor\\ListOfVatTaxpayers.Module.Blazor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module.Blazor\\ListOfVatTaxpayers.Module.Blazor.csproj",
+        "projectName": "ListOfVatTaxpayers.Module.Blazor",
+        "projectPath": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module.Blazor\\ListOfVatTaxpayers.Module.Blazor.csproj",
+        "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module.Blazor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kacper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module\\ListOfVatTaxpayers.Module.csproj": {
+                "projectPath": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module\\ListOfVatTaxpayers.Module.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "DevExpress.ExpressApp": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.Blazor": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.Validation.Blazor": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.Xpo": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.Persistent.Base": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.Persistent.BaseImpl.Xpo": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module\\ListOfVatTaxpayers.Module.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module\\ListOfVatTaxpayers.Module.csproj",
+        "projectName": "ListOfVatTaxpayers.Module",
+        "projectPath": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module\\ListOfVatTaxpayers.Module.csproj",
+        "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kacper\\source\\repos\\ListOfVatTaxpayers\\ListOfVatTaxpayers.Module\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kacper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "DevExpress.ExpressApp": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.ConditionalAppearance": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.Objects": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.Validation": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.ExpressApp.Xpo": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.Persistent.Base": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "DevExpress.Persistent.BaseImpl.Xpo": {
+              "target": "Package",
+              "version": "[21.2.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
